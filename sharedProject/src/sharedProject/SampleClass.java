@@ -1,3 +1,4 @@
+/* shiva has made changes to sysout*/
 package sharedProject;
 import java.util.Scanner;
 public class SampleClass {
@@ -11,7 +12,6 @@ public class SampleClass {
 		int number3=sc.nextInt();
 		
 		System.out.println((number1>number2 && number1>number3)?number1:(number2>number3 && number2>number1)?number2:number3);
-
+		System.out.println("this is end of program");
 	}
-
 }
